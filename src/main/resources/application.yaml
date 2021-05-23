@@ -12,6 +12,11 @@ spring:
     url: jdbc:mysql://localhost:3306/miaosha?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
     username: root
     password: 2000922...
+  redis:
+    database: 0
+    host: gaosong.site
+    port: 6379
+    password: 123456
 mybatis:
   type-aliases-package: com.imooc.miaosha.domain
   mapper-locations: classpath:com/immoc/miaosha/mapper/*.xml
