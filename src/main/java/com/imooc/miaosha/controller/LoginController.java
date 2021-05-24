@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.validation.Valid;
 import java.util.Objects;
 
 @Controller
@@ -30,7 +31,7 @@ public class LoginController {
 
     @RequestMapping("/do_login")
     @ResponseBody
-    public Result<Boolean> doLogin(LoginVO loginVO){
+    public Result<Boolean> doLogin(@Valid LoginVO loginVO){
         log.info(loginVO.toString());
         //验证登录首先查询对应的数据库的dpPass
         MiaoshaUser user = miaoshaUserService.getById(Long.parseLong(loginVO.getMobile()));
