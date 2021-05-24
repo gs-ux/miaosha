@@ -1,5 +1,7 @@
 package com.imooc.miaosha.result;
 
+import com.sun.org.apache.bcel.internal.classfile.Code;
+
 /**
  * 状态码信息，结合Result类
  */
@@ -26,6 +28,13 @@ public class CodeMsg {
     //订单模块 5004XX
 
     //秒杀模块 5005XX
+
+
+    public CodeMsg fillArgs(Object... args){
+        int code = this.code;
+        String message = String.format(this.msg,args);
+        return new CodeMsg(code,message);
+    }
 
     private CodeMsg(int code,String msg){
         this.code = code;

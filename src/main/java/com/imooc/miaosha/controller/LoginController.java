@@ -32,27 +32,7 @@ public class LoginController {
     @RequestMapping("/do_login")
     @ResponseBody
     public Result<Boolean> doLogin(@Valid LoginVO loginVO){
-        log.info(loginVO.toString());
-        //验证登录首先查询对应的数据库的dpPass
-        MiaoshaUser user = miaoshaUserService.getById(Long.parseLong(loginVO.getMobile()));
-
-        log.info("数据库的user: "+user);
-        //dbPass
-        String dbPass = user.getPassword();
-        log.info("dbPass: "+dbPass);
-
-        //form表单里的pass
-        String formPass = loginVO.getPassword();
-        //MD5后的pass，也即计算出来的pass
-        String calcPass = MD5Util.formPassToDBPass(formPass,user.getSalt());
-        log.info("calcPass: "+calcPass);
-
-        //比较两者是否相等
-        if (Objects.equals(calcPass,dbPass)) {
-            return Result.success(true);
-        }else{
-            //不相等
-            return Result.error(CodeMsg.PASSWORD_ERROR);
-        }
+        miaoshaUserService.login(loginVO);
+        return Result.success(true);
     }
 }
