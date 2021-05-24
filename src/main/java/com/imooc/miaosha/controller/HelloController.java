@@ -26,7 +26,7 @@ public class HelloController {
 
     @GetMapping("/err")
     public Result<String> error(){
-        return Result.error(CodeMsg.SERVICE_ERROR);
+        return Result.error(CodeMsg.SERVER_ERROR);
     }
 
     @GetMapping("/db/get")
