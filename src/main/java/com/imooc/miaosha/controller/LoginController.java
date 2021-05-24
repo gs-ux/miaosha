@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.util.Objects;
 
@@ -31,8 +32,8 @@ public class LoginController {
 
     @RequestMapping("/do_login")
     @ResponseBody
-    public Result<Boolean> doLogin(@Valid LoginVO loginVO){
-        miaoshaUserService.login(loginVO);
+    public Result<Boolean> doLogin(HttpServletResponse response, @Valid LoginVO loginVO){
+        miaoshaUserService.login(response,loginVO);
         return Result.success(true);
     }
 }
