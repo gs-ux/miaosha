@@ -339,3 +339,91 @@
 2021-05-25 13:33:38.937  INFO 9052 --- [http-nio-8080-exec-4] c.i.miaosha.controller.GoodsController   : start1509866280000
 2021-05-25 13:33:38.937  INFO 9052 --- [http-nio-8080-exec-4] c.i.miaosha.controller.GoodsController   : end1510552818000
 2021-05-25 13:33:38.937  INFO 9052 --- [http-nio-8080-exec-4] c.i.miaosha.controller.GoodsController   : now1621920818937
+2021-05-25 13:34:28.587  INFO 9760 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 9760 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
+2021-05-25 13:34:28.590  INFO 9760 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
+2021-05-25 13:34:28.645  INFO 9760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 13:34:28.645  INFO 9760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 13:34:29.306  INFO 9760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-25 13:34:29.308  INFO 9760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-25 13:34:29.328  INFO 9760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-05-25 13:34:29.749  INFO 9760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 13:34:29.755  INFO 9760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 13:34:29.756  INFO 9760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-25 13:34:29.878  INFO 9760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-25 13:34:29.878  INFO 9760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1232 ms
+2021-05-25 13:34:30.468  WARN 9760 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-25 13:34:30.566  INFO 9760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 13:34:30.592  INFO 9760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-25 13:34:30.601  INFO 9760 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 2.51 seconds (JVM running for 3.819)
+2021-05-25 13:34:46.661  INFO 9760 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 13:34:46.661  INFO 9760 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 13:34:46.662  INFO 9760 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-25 13:34:48.263  INFO 9760 --- [http-nio-8080-exec-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-05-25 13:34:53.685  INFO 9760 --- [http-nio-8080-exec-10] c.i.miaosha.controller.GoodsController   : startTue May 25 13:36:00 CST 2021
+2021-05-25 13:34:53.686  INFO 9760 --- [http-nio-8080-exec-10] c.i.miaosha.controller.GoodsController   : endTue May 25 14:00:18 CST 2021
+2021-05-25 13:34:53.686  INFO 9760 --- [http-nio-8080-exec-10] c.i.miaosha.controller.GoodsController   : nowTue May 25 13:34:53 CST 2021
+2021-05-25 16:08:09.395  INFO 15400 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 15400 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
+2021-05-25 16:08:09.398  INFO 15400 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
+2021-05-25 16:08:09.461  INFO 15400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 16:08:09.462  INFO 15400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 16:08:10.265  INFO 15400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-25 16:08:10.266  INFO 15400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-25 16:08:10.286  INFO 15400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-05-25 16:08:10.788  INFO 15400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 16:08:10.796  INFO 15400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 16:08:10.796  INFO 15400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-25 16:08:10.934  INFO 15400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-25 16:08:10.934  INFO 15400 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1471 ms
+2021-05-25 16:08:11.545  WARN 15400 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-25 16:08:11.658  INFO 15400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 16:08:11.740  INFO 15400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-25 16:08:11.789  INFO 15400 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 2.913 seconds (JVM running for 4.418)
+2021-05-25 16:08:20.881  INFO 15400 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 16:08:20.881  INFO 15400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 16:08:20.882  INFO 15400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-25 16:08:25.349  INFO 15400 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-05-25 16:10:55.922  INFO 13652 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 13652 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
+2021-05-25 16:10:55.925  INFO 13652 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
+2021-05-25 16:10:55.962  INFO 13652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 16:10:55.963  INFO 13652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 16:10:56.601  INFO 13652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-25 16:10:56.603  INFO 13652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-25 16:10:56.623  INFO 13652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-05-25 16:10:57.160  INFO 13652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 16:10:57.182  INFO 13652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 16:10:57.182  INFO 13652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-25 16:10:57.305  INFO 13652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-25 16:10:57.306  INFO 13652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1341 ms
+2021-05-25 16:10:58.060  WARN 13652 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-25 16:10:58.179  INFO 13652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 16:10:58.214  INFO 13652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-25 16:10:58.223  INFO 13652 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 2.708 seconds (JVM running for 4.565)
+2021-05-25 16:11:04.837  INFO 13652 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 16:11:04.837  INFO 13652 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 16:11:04.838  INFO 13652 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-25 16:11:08.177  INFO 13652 --- [http-nio-8080-exec-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-05-25 16:11:58.492  INFO 13652 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-05-25 16:11:58.495  INFO 13652 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-05-25 16:12:04.651  INFO 12036 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 12036 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
+2021-05-25 16:12:04.654  INFO 12036 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
+2021-05-25 16:12:04.708  INFO 12036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 16:12:04.708  INFO 12036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 16:12:05.372  INFO 12036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-25 16:12:05.374  INFO 12036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-25 16:12:05.394  INFO 12036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-05-25 16:12:05.902  INFO 12036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 16:12:05.910  INFO 12036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 16:12:05.910  INFO 12036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-25 16:12:06.038  INFO 12036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-25 16:12:06.039  INFO 12036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1330 ms
+2021-05-25 16:12:06.747  WARN 12036 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-25 16:12:06.864  INFO 12036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 16:12:06.894  INFO 12036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-25 16:12:06.903  INFO 12036 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 2.9 seconds (JVM running for 4.448)
+2021-05-25 16:12:13.428  INFO 12036 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 16:12:13.428  INFO 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 16:12:13.429  INFO 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-25 16:12:15.520  WARN 12036 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'goodsId' for method parameter type long is not present]
+2021-05-25 16:12:22.121  INFO 12036 --- [http-nio-8080-exec-9] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-05-25 16:29:01.986  INFO 12036 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-05-25 16:29:01.990  INFO 12036 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
