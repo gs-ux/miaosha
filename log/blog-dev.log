@@ -1,443 +1,60 @@
-2021-05-26 00:00:29.251  INFO 16272 --- [Thread-52] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2021-05-26 00:00:29.497  INFO 16272 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 16272 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 00:00:29.497  INFO 16272 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 00:00:29.670  INFO 16272 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 00:00:29.670  INFO 16272 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 00:00:29.674  INFO 16272 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2021-05-26 00:00:29.810  INFO 16272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 00:00:29.810  INFO 16272 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 00:00:29.810  INFO 16272 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 00:00:29.846  INFO 16272 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 00:00:29.846  INFO 16272 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 345 ms
-2021-05-26 00:00:29.996  WARN 16272 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 00:00:30.028  INFO 16272 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 00:00:30.040  INFO 16272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 00:00:30.044  INFO 16272 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.66 seconds (JVM running for 410.185)
-2021-05-26 00:00:30.044  INFO 16272 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 00:00:32.049  INFO 16272 --- [Thread-57] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2021-05-26 00:00:32.149  INFO 16272 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 16272 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 00:00:32.149  INFO 16272 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 00:00:32.265  INFO 16272 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 00:00:32.265  INFO 16272 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 00:00:32.269  INFO 16272 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2021-05-26 00:00:32.318  INFO 16272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 00:00:32.318  INFO 16272 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 00:00:32.318  INFO 16272 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 00:00:32.347  INFO 16272 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 00:00:32.347  INFO 16272 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
-2021-05-26 00:00:32.437  WARN 16272 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 00:00:32.453  INFO 16272 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 00:00:32.465  INFO 16272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 00:00:32.469  INFO 16272 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.336 seconds (JVM running for 412.609)
-2021-05-26 00:00:32.469  INFO 16272 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 10:53:16.852  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 10452 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 10:53:16.856  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 10:53:16.920  INFO 10452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-05-26 10:53:16.921  INFO 10452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-05-26 10:53:17.689  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 10:53:17.689  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 10:53:17.720  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-2021-05-26 10:53:18.175  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 10:53:18.175  INFO 10452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 10:53:18.175  INFO 10452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 10:53:18.291  INFO 10452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 10:53:18.291  INFO 10452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1368 ms
-2021-05-26 10:53:20.552  WARN 10452 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 10:53:20.653  INFO 10452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 10:53:20.684  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 10:53:20.684  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 4.409 seconds (JVM running for 6.333)
-2021-05-26 10:53:29.854  INFO 10452 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2021-05-26 10:53:30.004  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 10452 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 10:53:30.005  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 10:53:30.170  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 10:53:30.171  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 10:53:30.176  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
-2021-05-26 10:53:30.241  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 10:53:30.241  INFO 10452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 10:53:30.241  INFO 10452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 10:53:30.275  INFO 10452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 10:53:30.275  INFO 10452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 268 ms
-2021-05-26 10:53:30.406  WARN 10452 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 10:53:30.430  INFO 10452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 10:53:30.439  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 10:53:30.443  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.466 seconds (JVM running for 16.082)
-2021-05-26 10:53:30.445  INFO 10452 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 10:53:32.498  INFO 10452 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2021-05-26 10:53:32.661  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 10452 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 10:53:32.661  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 10:53:32.847  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 10:53:32.848  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 10:53:32.854  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
-2021-05-26 10:53:32.960  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 10:53:32.961  INFO 10452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 10:53:32.961  INFO 10452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 10:53:33.014  INFO 10452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 10:53:33.015  INFO 10452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 351 ms
-2021-05-26 10:53:33.262  WARN 10452 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 10:53:33.314  INFO 10452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 10:53:33.329  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 10:53:33.333  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.697 seconds (JVM running for 18.972)
-2021-05-26 10:53:33.335  INFO 10452 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 10:58:24.128  INFO 10452 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2021-05-26 10:58:24.273  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 10452 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 10:58:24.273  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 10:58:24.446  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 10:58:24.446  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 10:58:24.452  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
-2021-05-26 10:58:24.612  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 10:58:24.613  INFO 10452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 10:58:24.614  INFO 10452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 10:58:24.653  INFO 10452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 10:58:24.653  INFO 10452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 379 ms
-2021-05-26 10:58:24.844  WARN 10452 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 10:58:24.882  INFO 10452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 10:58:24.897  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 10:58:24.901  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.649 seconds (JVM running for 310.54)
-2021-05-26 10:58:24.902  INFO 10452 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 10:59:41.476  INFO 10452 --- [Thread-30] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2021-05-26 10:59:41.603  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 10452 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 10:59:41.603  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 10:59:41.797  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 10:59:41.797  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 10:59:41.801  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2021-05-26 10:59:41.950  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 10:59:41.951  INFO 10452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 10:59:41.951  INFO 10452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 10:59:41.985  INFO 10452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 10:59:41.985  INFO 10452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 380 ms
-2021-05-26 10:59:42.104  WARN 10452 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 10:59:42.124  INFO 10452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 10:59:42.135  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 10:59:42.139  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.558 seconds (JVM running for 387.778)
-2021-05-26 10:59:42.141  INFO 10452 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 10:59:44.271  INFO 10452 --- [Thread-35] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2021-05-26 10:59:44.432  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 10452 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 10:59:44.432  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 10:59:44.660  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 10:59:44.661  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 10:59:44.667  INFO 10452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
-2021-05-26 10:59:44.748  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 10:59:44.748  INFO 10452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 10:59:44.748  INFO 10452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 10:59:44.791  INFO 10452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 10:59:44.791  INFO 10452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 357 ms
-2021-05-26 10:59:45.048  WARN 10452 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 10:59:45.071  INFO 10452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 10:59:45.084  INFO 10452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 10:59:45.087  INFO 10452 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.7 seconds (JVM running for 390.727)
-2021-05-26 10:59:45.088  INFO 10452 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 11:05:30.488  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 2948 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 11:05:30.492  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 11:05:30.550  INFO 2948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-05-26 11:05:30.550  INFO 2948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-05-26 11:05:31.236  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 11:05:31.238  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 11:05:31.258  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-2021-05-26 11:05:31.733  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 11:05:31.741  INFO 2948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 11:05:31.741  INFO 2948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 11:05:31.871  INFO 2948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 11:05:31.871  INFO 2948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1320 ms
-2021-05-26 11:05:32.535  WARN 2948 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 11:05:32.636  INFO 2948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 11:05:32.661  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 11:05:32.669  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 2.637 seconds (JVM running for 4.035)
-2021-05-26 11:06:00.339  INFO 2948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-05-26 11:06:00.339  INFO 2948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-05-26 11:06:00.340  INFO 2948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-05-26 11:06:00.497  INFO 2948 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2021-05-26 11:07:15.370  WARN 2948 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.imooc.miaosha.exception.GlobalExceptionHandler#exceptionHandler(HttpServletRequest, Exception)
-
-org.apache.catalina.connector.ClientAbortException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:310) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:273) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140) ~[na:1.8.0_221]
-	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1178) ~[jackson-core-2.11.4.jar:2.11.4]
-	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008) ~[jackson-databind-2.11.4.jar:2.11.4]
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454) ~[spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181) ~[spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124) ~[spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428) ~[spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1323) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.7.jar:5.3.7]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) [tomcat-embed-core-9.0.46.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.7.jar:5.3.7]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.46.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
-Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_221]
-	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_221]
-	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_221]
-	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_221]
-	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_221]
-	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:118) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:151) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1367) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:719) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:709) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1196) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.Response.action(Response.java:209) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:306) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	... 57 common frames omitted
-
-2021-05-26 11:09:31.694  INFO 2948 --- [Thread-9] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2021-05-26 11:09:31.698  INFO 2948 --- [Thread-9] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2021-05-26 11:09:31.896  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 2948 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 11:09:31.896  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 11:09:32.074  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 11:09:32.075  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 11:09:32.080  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
-2021-05-26 11:09:32.259  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 11:09:32.259  INFO 2948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 11:09:32.259  INFO 2948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 11:09:32.303  INFO 2948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 11:09:32.303  INFO 2948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 405 ms
-2021-05-26 11:09:32.445  WARN 2948 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 11:09:32.476  INFO 2948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 11:09:32.488  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 11:09:32.494  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.634 seconds (JVM running for 243.86)
-2021-05-26 11:09:32.497  INFO 2948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 11:09:32.667  INFO 2948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-05-26 11:09:32.668  INFO 2948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-05-26 11:09:32.669  INFO 2948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-05-26 11:09:32.682  INFO 2948 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
-2021-05-26 11:09:34.768  INFO 2948 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
-2021-05-26 11:09:34.770  INFO 2948 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
-2021-05-26 11:09:34.933  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 2948 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 11:09:34.933  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 11:09:35.057  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 11:09:35.057  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 11:09:35.061  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2021-05-26 11:09:35.118  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 11:09:35.119  INFO 2948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 11:09:35.119  INFO 2948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 11:09:35.160  INFO 2948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 11:09:35.161  INFO 2948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 226 ms
-2021-05-26 11:09:35.332  WARN 2948 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 11:09:35.351  INFO 2948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 11:09:35.360  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 11:09:35.364  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.455 seconds (JVM running for 246.729)
-2021-05-26 11:09:35.365  INFO 2948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 11:09:35.657  INFO 2948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-05-26 11:09:35.658  INFO 2948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-05-26 11:09:35.658  INFO 2948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2021-05-26 11:09:35.672  INFO 2948 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
-2021-05-26 11:10:06.167  WARN 2948 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.imooc.miaosha.exception.GlobalExceptionHandler#exceptionHandler(HttpServletRequest, Exception)
-
-org.apache.catalina.connector.ClientAbortException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:310) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:273) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140) ~[na:1.8.0_221]
-	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1178) ~[jackson-core-2.11.4.jar:2.11.4]
-	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008) ~[jackson-databind-2.11.4.jar:2.11.4]
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454) ~[spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181) ~[spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124) ~[spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428) ~[spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1323) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.7.jar:5.3.7]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.7.jar:5.3.7]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) [tomcat-embed-core-9.0.46.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.7.jar:5.3.7]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.46.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.7.jar:5.3.7]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
-Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_221]
-	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_221]
-	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_221]
-	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_221]
-	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_221]
-	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:118) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:151) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1367) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:719) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:709) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1196) [tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.coyote.Response.action(Response.java:209) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:306) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
-	... 57 common frames omitted
-
-2021-05-26 11:12:41.020  INFO 2948 --- [Thread-21] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closing ...
-2021-05-26 11:12:41.021  INFO 2948 --- [Thread-21] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
-2021-05-26 11:12:41.182  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 2948 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 11:12:41.183  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 11:12:41.321  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 11:12:41.321  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 11:12:41.325  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2021-05-26 11:12:41.468  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 11:12:41.469  INFO 2948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 11:12:41.469  INFO 2948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 11:12:41.501  INFO 2948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-05-26 11:12:41.502  INFO 2948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 318 ms
-2021-05-26 11:12:41.507  WARN 2948 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userArgumentResolver' defined in file [D:\桌面\HTML\github\miaosha\target\classes\com\imooc\miaosha\config\UserArgumentResolver.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.imooc.miaosha.config.UserArgumentResolver] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3f26bd2a]
-2021-05-26 11:12:41.507  INFO 2948 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2021-05-26 11:12:41.512  INFO 2948 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-05-26 11:12:41.531 ERROR 2948 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userArgumentResolver' defined in file [D:\桌面\HTML\github\miaosha\target\classes\com\imooc\miaosha\config\UserArgumentResolver.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.imooc.miaosha.config.UserArgumentResolver] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3f26bd2a]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579) ~[spring-beans-5.3.7.jar:5.3.7]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.7.jar:5.3.7]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.7.jar:5.3.7]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.7.jar:5.3.7]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.7.jar:5.3.7]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.7.jar:5.3.7]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.7.jar:5.3.7]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.7.jar:5.3.7]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.7.jar:5.3.7]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.6.jar:2.4.6]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771) [spring-boot-2.4.6.jar:2.4.6]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763) [spring-boot-2.4.6.jar:2.4.6]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) [spring-boot-2.4.6.jar:2.4.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.6.jar:2.4.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.6.jar:2.4.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318) [spring-boot-2.4.6.jar:2.4.6]
-	at com.imooc.miaosha.MiaoshaApplication.main(MiaoshaApplication.java:10) [classes/:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.6.jar:2.4.6]
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.imooc.miaosha.config.UserArgumentResolver] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3f26bd2a]
-	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.7.jar:5.3.7]
-	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.7.jar:5.3.7]
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366) ~[spring-context-5.3.7.jar:5.3.7]
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347) ~[spring-context-5.3.7.jar:5.3.7]
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295) ~[spring-context-5.3.7.jar:5.3.7]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098) ~[spring-beans-5.3.7.jar:5.3.7]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.3.7.jar:5.3.7]
-	... 21 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: Lcom/imooc/miaosha/service/MiaoshaUserService;
-	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_221]
-	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_221]
-	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_221]
-	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.7.jar:5.3.7]
-	... 27 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.imooc.miaosha.service.MiaoshaUserService
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_221]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_221]
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_221]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
-	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
-	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
-	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.4.6.jar:2.4.6]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
-	... 31 common frames omitted
-
-2021-05-26 11:12:43.012  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 2948 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
-2021-05-26 11:12:43.012  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
-2021-05-26 11:12:43.144  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-05-26 11:12:43.144  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-05-26 11:12:43.148  INFO 2948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2021-05-26 11:12:43.200  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-05-26 11:12:43.200  INFO 2948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-05-26 11:12:43.201  INFO 2948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-05-26 11:12:43.257  INFO 2948 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2021-05-26 11:12:43.257  INFO 2948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 243 ms
-2021-05-26 11:12:43.380  WARN 2948 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2021-05-26 11:12:43.401  INFO 2948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-05-26 11:12:43.410  INFO 2948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-26 11:12:43.413  INFO 2948 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 0.424 seconds (JVM running for 434.78)
-2021-05-26 11:12:43.414  INFO 2948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-05-26 11:12:43.744  INFO 2948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-05-26 11:12:43.745  INFO 2948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-05-26 11:12:43.746  INFO 2948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-05-26 11:12:43.763  INFO 2948 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2021-05-27 00:00:27.117  INFO 31164 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 31164 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
+2021-05-27 00:00:27.117  INFO 31164 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
+2021-05-27 00:00:27.179  INFO 31164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 00:00:27.179  INFO 31164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 00:00:27.945  INFO 31164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 00:00:27.945  INFO 31164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 00:00:27.960  INFO 31164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-05-27 00:00:28.398  INFO 31164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-27 00:00:28.398  INFO 31164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-27 00:00:28.398  INFO 31164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-27 00:00:28.523  INFO 31164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-27 00:00:28.523  INFO 31164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1344 ms
+2021-05-27 00:00:28.951  WARN 31164 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-27 00:00:29.271  INFO 31164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-27 00:00:29.295  INFO 31164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-27 00:00:29.303  INFO 31164 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 2.667 seconds (JVM running for 4.006)
+2021-05-27 00:00:32.803  INFO 31164 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 00:00:32.803  INFO 31164 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-27 00:00:32.803  INFO 31164 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-27 00:00:34.251  INFO 31164 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-05-27 00:01:44.325  INFO 23908 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 23908 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
+2021-05-27 00:01:44.333  INFO 23908 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
+2021-05-27 00:01:44.389  INFO 23908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 00:01:44.389  INFO 23908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 00:01:45.019  INFO 23908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 00:01:45.019  INFO 23908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 00:01:45.035  INFO 23908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-05-27 00:01:45.435  INFO 23908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-27 00:01:45.443  INFO 23908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-27 00:01:45.443  INFO 23908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-27 00:01:45.563  INFO 23908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-27 00:01:45.563  INFO 23908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1174 ms
+2021-05-27 00:01:45.972  WARN 23908 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-27 00:01:46.269  INFO 23908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-27 00:01:46.301  INFO 23908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-27 00:01:46.309  INFO 23908 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 2.427 seconds (JVM running for 3.858)
+2021-05-27 00:01:58.064  INFO 23908 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 00:01:58.064  INFO 23908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-27 00:01:58.064  INFO 23908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-27 00:01:59.465  INFO 23908 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-05-27 00:02:46.550  INFO 18528 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Starting MiaoshaApplication using Java 1.8.0_221 on LAPTOP-HF80FFM4 with PID 18528 (D:\桌面\HTML\github\miaosha\target\classes started by GS in D:\桌面\HTML\github\miaosha)
+2021-05-27 00:02:46.550  INFO 18528 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : No active profile set, falling back to default profiles: default
+2021-05-27 00:02:46.614  INFO 18528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 00:02:46.614  INFO 18528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 00:02:47.198  INFO 18528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 00:02:47.198  INFO 18528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 00:02:47.216  INFO 18528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-05-27 00:02:47.618  INFO 18528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-27 00:02:47.626  INFO 18528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-27 00:02:47.626  INFO 18528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-27 00:02:47.741  INFO 18528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-27 00:02:47.741  INFO 18528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1127 ms
+2021-05-27 00:02:48.141  WARN 18528 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-27 00:02:48.437  INFO 18528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-27 00:02:48.461  INFO 18528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-27 00:02:48.469  INFO 18528 --- [restartedMain] com.imooc.miaosha.MiaoshaApplication     : Started MiaoshaApplication in 2.366 seconds (JVM running for 3.735)
+2021-05-27 00:02:56.065  INFO 18528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 00:02:56.065  INFO 18528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-27 00:02:56.065  INFO 18528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-27 00:02:57.847  INFO 18528 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited

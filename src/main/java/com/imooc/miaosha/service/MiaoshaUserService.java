@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.imooc.miaosha.dao.MiaoshaUserDao;
 import com.imooc.miaosha.domain.MiaoshaUser;
 import com.imooc.miaosha.exception.GlobalException;
-import com.imooc.miaosha.redis.MiaoshaUserKey;
+import com.imooc.miaosha.redis.KeyPrefix;
 import com.imooc.miaosha.redis.RedisService;
 import com.imooc.miaosha.result.CodeMsg;
 import com.imooc.miaosha.result.Result;
@@ -33,6 +33,18 @@ public class MiaoshaUserService {
     private RedisService redisService;
 
     public MiaoshaUser getById(Long id){
+        //取缓存
+        String userString = redisService.get(KeyPrefix.USER_ID + id);
+        System.out.println(KeyPrefix.USER_ID + id);
+        MiaoshaUser user = JSON.toJavaObject(JSON.parseObject(userString), MiaoshaUser.class);
+        if(user!=null){
+            return user;
+        }
+        //取数据库
+        user = miaoshaUserDao.getById(id);
+        if(user!=null){
+            redisService.set(KeyPrefix.USER_ID + id,JSON.toJSONString(user));
+        }
         return miaoshaUserDao.getById(id);
     }
 
@@ -52,6 +64,9 @@ public class MiaoshaUserService {
 
         //form表单里的pass
         String formPass = loginVO.getPassword();
+
+        System.out.println(user);
+
         //MD5后的pass，也即计算出来的pass
         String calcPass = MD5Util.formPassToDBPass(formPass,user.getSalt());
 
@@ -69,7 +84,7 @@ public class MiaoshaUserService {
     public void addCookie(HttpServletResponse response,String token,MiaoshaUser user){
 
         String val = JSON.toJSONString(user);
-        redisService.set(MiaoshaUserKey.token+token,val);
+        redisService.set(KeyPrefix.USER_TOKEN +token,val);
         Cookie cookie = new Cookie(COOKIE_NAME_TOKEN, token);
         cookie.setMaxAge(3600*24*2);
         cookie.setPath("/");
@@ -80,7 +95,7 @@ public class MiaoshaUserService {
         if(StringUtils.isEmpty(token)){
             return null;
         }
-        String val = redisService.get(MiaoshaUserKey.token+token);
+        String val = redisService.get(KeyPrefix.USER_TOKEN+token);
         //将val转换成user对象
         MiaoshaUser user = JSON.toJavaObject(JSON.parseObject(val), MiaoshaUser.class);
         //延长有效期

@@ -16,6 +16,10 @@ public class OrderService {
     @Autowired
     private OrderDao orderDao;
 
+    public OrderInfo getOrderById(long orderId) {
+        return orderDao.getOrderById(orderId);
+    }
+
 
     public MiaoshaOrder getMiaoshaOrderByUserIdGoodsId(Long id, long goodsId) {
         return orderDao.getMiaoshaOrderByUserIdGoodsId(id,goodsId);

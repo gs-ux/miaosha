@@ -4,6 +4,8 @@ mybatis:
   #  把下换线转换成驼峰
   configuration:
     map-underscore-to-camel-case: true
+    default-fetch-size: 100
+    default-statement-timeout: 3000
 spring:
   thymeleaf:
     cache: false
@@ -20,10 +22,10 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     filters: stat
     tomcat:
-      max-active: 2
-      initial-size: 1
+      max-active: 1000
+      initial-size: 100
       max-wait: 60000
-      min-idle: 1
+      min-idle: 500
       time-between-eviction-runs-millis: 60000
       min-evictable-idle-time-millis: 300000
       validation-query: select 'x'
@@ -39,6 +41,22 @@ spring:
     host: gaosong.site
     port: 6379
     password: 123456
+    timeout: 3000
+    jedis:
+      pool:
+        max-idle: 500
+        max-wait: 500
+        max-active: 1000
+  web:
+    resources:
+      add-mappings: true
+      cache:
+        period: 3600
+      chain:
+        cache: true
+        enabled: true
+        compressed: true
+      static-locations: classpath:/static/
 # 日志设置
 logging:
   level:
